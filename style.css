@@ -9,20 +9,20 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 50rem;
+    width: 25rem;
     margin: auto;
     padding: 5vh;
-    font-size: 100px;
-    margin-top: 15%;
+    margin-top: 20%;
+    font-size: 50px;
     font-weight: bolder;
     background-color: darkgray;
     border: 2px solid gray;
 }
 
-@media screen and (min-width:375px) {
+@media screen and (max-width:375px) and (max-width:414px) {
     #time {
         width: 20rem;
         font-size: 50px;
-        margin-top: 50%;
+        margin-top: 20%;
     }
 }
